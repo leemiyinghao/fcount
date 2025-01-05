@@ -1,0 +1,18 @@
+#+AUTHOR: catLee
+#+EMAIL: leemiyinghao@gmx.com
+#+TITLE: FCount: Fast File Counting (and size calculating) Tool
+
+* Introduction
+FCount is a fast file counting tool. It can count the number of files
+and directories in a directory, and calculate the total size of all
+files in the directory.
+  
+* Usage
+FCount is a command line tool. You can use it like this:
+
+#+BEGIN_SRC sh
+  fcount /path/to/directory
+#+END_SRC
+
+FCount will print the number of files and directories in the
+directory, and the total size of all files in the directory.
